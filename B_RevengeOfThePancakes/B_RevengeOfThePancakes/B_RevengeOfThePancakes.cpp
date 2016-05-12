@@ -27,7 +27,7 @@ int main()
 	string firstLine = "", pancake = "";
 	int testCases = -1;
 
-	ifstream in("B-small-attempt1.in");
+	ifstream in("B-large.in");
 	streambuf *cinbuf = cin.rdbuf();
 	cin.rdbuf(in.rdbuf());
 
